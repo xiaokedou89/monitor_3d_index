@@ -1,0 +1,33 @@
+{
+  "name": "monitorctrl-3d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "3D 展示管控系统 — 分层网络拓扑 3D 交互展示与管控",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "gen:data": "tsx scripts/gen-data.ts",
+    "fetch:map": "node scripts/fetch-map-data.mjs",
+    "sse": "tsx server/mock-sse.ts"
+  },
+  "dependencies": {
+    "earcut": "^3.0.1",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/earcut": "^2.1.4",
+    "@types/node": "^26.4.0",
+    "@types/three": "^0.185.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}

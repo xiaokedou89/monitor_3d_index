@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%23041022'/%3E%3Crect x='2' y='5' width='12' height='1.6' fill='%2322d3ee'/%3E%3Crect x='2' y='9' width='9' height='1.6' fill='%233b82f6'/%3E%3C/svg%3E" />
+    <title>3D 展示管控系统 · 分层网络拓扑</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="scene-root"></div>
+      <div id="hud" class="overlay"></div>
+      <!-- P4 布局：左侧上=消息状态区，左侧中=动态消息窗体，左侧下=分层缩略图；
+           底部中=详情窗口，底部右=实体控制窗口，右上角=智能助手+帮助 -->
+      <div id="stats-board" class="overlay"></div>
+      <div id="message-window" class="overlay"></div>
+      <div id="minimap-window" class="overlay"></div>
+      <div id="detail-panel" class="overlay"></div>
+      <div id="control-window" class="overlay"></div>
+      <div id="corner-btns" class="overlay"></div>
+      <div id="help-window" class="overlay hidden"></div>
+      <div id="assistant-window" class="overlay hidden"></div>
+      <div id="settings-panel" class="overlay hidden"></div>
+      <div id="toast-root" class="overlay"></div>
+      <div id="tour-overlay" class="overlay hidden"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
