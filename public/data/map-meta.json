@@ -1,0 +1,30 @@
+{
+  "fetchedAt": "2026-08-27T16:37:47.773Z",
+  "files": [
+    {
+      "key": "china",
+      "file": "china.geo.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json",
+      "bytes": 582263,
+      "sha256": "206cf7fd5acba4bb08d9586899acc144cea2b29d9e93ff70f93895c5e5ffde77",
+      "valid": true
+    },
+    {
+      "key": "world",
+      "file": "world.geo.json",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "bytes": 815561,
+      "sha256": "e29986085b5796949c9e8a96a047687978c065b9764f556785dc934c26f2d93a",
+      "valid": true
+    },
+    {
+      "key": "hainan",
+      "file": "hainan.geo.json",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/460000_full.json",
+      "bytes": 33950,
+      "sha256": "76fa43f20019821c87cae25d28893d508900764403f09c41b4d2c76bd6523900",
+      "valid": true
+    }
+  ],
+  "note": "演示用地图数据。中国地图基于自然资源部标准地图数据（DataV.GeoAtlas 加工），生产环境请替换为自然资源部标准地图服务发布的标准地图并标注审图号。"
+}
